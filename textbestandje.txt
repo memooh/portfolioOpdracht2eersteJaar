@@ -1,0 +1,22 @@
+Portfolio opdracht
+
+1.	De (gehele) portfolio opdracht wordt met een voldoende afgesloten bij 55 of meer punten. Er wordt geen goed toegekend (het is of voldoende of onvoldoende).
+	Aantal behaalde punten >= 55 = voldoende
+	Aantal behaalde punten < 55 = onvoldoende
+2.	Het onderdeel wordt in zijn geheel als goed of fout beoordeeld. Het is dus NIET mogelijk een deel van de punten te krijgen voor eenn onderdeel/ criteria.
+3.	De student laat zijn werk controleren tijdens de individuele assessment.
+4.	De student mag voorbeelden NIET overnemen van het lesmateriaal (dit wordt gezien als fraude).
+5.	Als code wel werkt maar op essentiële punten onder de maat is (ontbreken van constanten, gebruiken van onjuiste variabele- en methodenamen), worden geen punten toegekend. De examinator maakt dan kenbaar waarom het onvoldoende is.
+
+
+Criteria #	Criteria / indicator behaald als	Punten	Onvoldoende / Voldoende
+1.		Je een beknopte probleemstelling (max. 200 woorden) hebt geformuleerd.	5 Klaar
+2.		Je een UML klassendiagram hebt bijgevoegd met minimaal 5 klassen.	25 | Klaar
+3.		Je overerving en polymorphism hebt toegepast.	10 Klaar
+4.		Je gebruik gemaakt hebt van abstract classes en/of interfaces.	10 Klaar
+5.		Je method overriding hebt toegepast. 10 Klaar
+        Tot nu toe 60
+6.		Je minimaal 3 zinvolle JUnit testen hebt.	20 Klaar
+7.		Je aan kunt tonen in IntelliJ dat het programma werkt (zowel het programma als de JUnit testen).	5 Klaar
+8.		Je composiet en/of aggregaat relatie hebt verwerkt in de opdracht.	15
+Totaal	100
