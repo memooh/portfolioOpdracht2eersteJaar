@@ -254,3 +254,47 @@ class Auto extends Voertuig {
     }
 
 }
+
+class Prijs {
+    private Integer aantal;
+
+    public Prijs(Integer aantal) {
+        this.aantal = aantal;
+    }
+
+    public double getPrijs(int prijs) {
+        int dealpercentage = 0;
+        double total = 0.00;
+
+        if (prijs > 1000 && prijs <= 14000) {
+            dealpercentage = 20;
+        }
+
+        if (prijs > 0 && prijs<= 1000) {
+            dealpercentage = 40;
+        }
+
+        for (int i = 1; i <= this.aantal; i++) {
+            if (i == 2) {
+                total += 18000.00;
+            }
+            if (i == 1) {
+                total += 34000.00;
+            }
+            if (i > 2) {
+                total += 8000.00;
+            }
+        }
+        return total / 100 * dealpercentage;
+    }
+
+    public Integer getAantal() {
+        return aantal;
+    }
+
+    public void setAantal(Integer aantal) {
+        this.aantal = aantal;
+    }
+
+}
+

@@ -32,4 +32,12 @@ public class mainTest {
         Assert.assertEquals("scooter_1", scooter_1.getVoertuigName());
 
     }
+
+    @Test
+    public void getPrijs() {
+            Prijs voertuig1 = new Prijs(1);
+            Assert.assertEquals(13600, voertuig1.getPrijs(1), 0.01);
+    }
+
+
 }
