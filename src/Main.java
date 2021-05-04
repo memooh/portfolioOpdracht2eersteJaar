@@ -274,6 +274,11 @@ class Prijs {
             dealpercentage = 40;
         }
 
+        if (prijs > 14000 && prijs<= 100000) {
+            dealpercentage = 0;
+        }
+
+
         for (int i = 1; i <= this.aantal; i++) {
             if (i == 2) {
                 total += 18000.00;
