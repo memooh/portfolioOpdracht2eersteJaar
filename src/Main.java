@@ -277,6 +277,16 @@ class Prijs {
         if (prijs > 14000 && prijs<= 100000) {
             dealpercentage = 0;
         }
+        
+        if (voertuigNaam.equals("bmw".toUpperCase(LOCALE.ROOT))){
+             dealpercentage = 10;
+        } else if(voertuignaam.equals("audi".toUpperCase(LOCAL.ROOT))){
+            dealpercentage = 20;
+        } else if (voertuignaam.equals("mercedes".toUpperCase(LOCAL.ROOT))){
+            dealpercentage = 15;
+        } else{
+            dealpercentage = 0;
+        }
 
 
         for (int i = 1; i <= this.aantal; i++) {
@@ -293,6 +303,7 @@ class Prijs {
         return total / 100 * dealpercentage;
     }
 
+            
     public Integer getAantal() {
         return aantal;
     }
