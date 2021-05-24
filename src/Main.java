@@ -278,11 +278,11 @@ class Prijs {
             dealpercentage = 0;
         }
         
-        if (voertuigNaam.equals("bmw".toUpperCase(LOCALE.ROOT))){
+        if (voertuigNaam.equals("bmw".toUpperCase(LOCALE.ROOT)) && aantalDeuren == 2){
              dealpercentage = 10;
-        } else if(voertuignaam.equals("audi".toUpperCase(LOCAL.ROOT))){
+        } else if(voertuignaam.equals("audi".toUpperCase(LOCAL.ROOT)) aantalDeuren == 1){
             dealpercentage = 20;
-        } else if (voertuignaam.equals("mercedes".toUpperCase(LOCAL.ROOT))){
+        } else if (voertuignaam.equals("mercedes".toUpperCase(LOCAL.ROOT)) aantalDeuren == 4){
             dealpercentage = 15;
         } else{
             dealpercentage = 0;
