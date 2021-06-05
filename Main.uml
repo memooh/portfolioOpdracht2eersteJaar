@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Main</OriginalElement>
+  <nodes>
+    <node x="451.99114331723047" y="1058.0">Auto</node>
+    <node x="853.6922590292162" y="203.4999999999999">Mechanic</node>
+    <node x="214.99114331723047" y="1047.0">Scooter</node>
+    <node x="241.36614331723047" y="0.0">Accountant</node>
+    <node x="331.9808776167475" y="804.5">Voertuig</node>
+    <node x="58.24114331723047" y="834.0000000000001">Login</node>
+    <node x="434.36614331723047" y="0.0">IT</node>
+    <node x="648.5494018863589" y="223.49999999999994">Manager</node>
+    <node x="451.9808776167475" y="1275.0">Main</node>
+    <node x="293.86614331723047" y="133.0">Dealer</node>
+    <node x="250.20833333333337" y="486.0">Dealership</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Mechanic" target="Dealer" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="935.1922590292162" y="404.28571428571445" />
+      <point x="494.6994766505638" y="404.28571428571445" />
+      <point x="80.33333333333331" y="150.5" />
+    </edge>
+    <edge source="Main" target="Accountant" relationship="CREATE">
+      <point x="-66.22222222222223" y="-39.5" />
+      <point x="460.25865539452525" y="1254.0" />
+      <point x="26.0" y="1254.0" />
+      <point x="26.0" y="106.0" />
+      <point x="270.19947665056384" y="106.0" />
+      <point x="-57.66666666666666" y="39.5" />
+    </edge>
+    <edge source="Main" target="Scooter" relationship="CREATE">
+      <point x="-16.555555555555543" y="-39.5" />
+      <point x="509.92532206119193" y="1224.0" />
+      <point x="323.49114331723047" y="1224.0" />
+      <point x="0.0" y="73.0" />
+    </edge>
+    <edge source="Dealer" target="IT" relationship="TO_ONE">
+      <point x="80.33333333333331" y="-150.5" />
+      <point x="494.6994766505638" y="106.0" />
+      <point x="500.86614331723047" y="106.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="Dealer" target="Accountant" relationship="TO_ONE">
+      <point x="-80.33333333333331" y="-150.5" />
+      <point x="334.03280998389715" y="106.0" />
+      <point x="327.86614331723047" y="106.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="Login" target="Dealership" relationship="TO_MANY">
+      <point x="-69.33333333333331" y="-106.5" />
+      <point x="92.90780998389715" y="709.5714285714286" />
+      <point x="203.3409822866347" y="709.5714285714286" />
+      <point x="203.3409822866347" y="741.0" />
+      <point x="307.95833333333337" y="741.0" />
+      <point x="-57.75" y="117.0" />
+    </edge>
+    <edge source="Voertuig" target="Dealership" relationship="TO_ONE">
+      <point x="-39.75" y="-84.0" />
+      <point x="371.7308776167475" y="761.0" />
+      <point x="365.70833333333337" y="761.0" />
+      <point x="365.70833333333337" y="741.0" />
+      <point x="307.95833333333337" y="741.0" />
+      <point x="-57.75" y="117.0" />
+    </edge>
+    <edge source="Login" target="Dealership" relationship="TO_ONE">
+      <point x="0.0" y="-106.5" />
+      <point x="162.24114331723047" y="729.5714285714286" />
+      <point x="307.95833333333337" y="729.5714285714286" />
+      <point x="-57.75" y="117.0" />
+    </edge>
+    <edge source="Accountant" target="Dealer" relationship="GENERALIZATION">
+      <point x="57.66666666666663" y="39.5" />
+      <point x="385.5328099838971" y="106.0" />
+      <point x="414.36614331723047" y="106.0" />
+      <point x="0.0" y="-150.5" />
+    </edge>
+    <edge source="Auto" target="Voertuig" relationship="GENERALIZATION">
+      <point x="0.0" y="-62.0" />
+      <point x="553.4911433172305" y="1021.0" />
+      <point x="411.4808776167475" y="1021.0" />
+      <point x="0.0" y="84.0" />
+    </edge>
+    <edge source="Main" target="Dealer" relationship="CREATE">
+      <point x="-49.666666666666686" y="-39.5" />
+      <point x="476.8142109500808" y="1244.0" />
+      <point x="47.74114331723047" y="1244.0" />
+      <point x="47.74114331723047" y="455.0" />
+      <point x="334.03280998389715" y="455.0" />
+      <point x="-80.33333333333331" y="150.5" />
+    </edge>
+    <edge source="Main" target="Dealership" relationship="CREATE">
+      <point x="16.555555555555543" y="-39.5" />
+      <point x="543.0364331723031" y="1224.0" />
+      <point x="702.2411433172305" y="1224.0" />
+      <point x="702.2411433172305" y="751.0" />
+      <point x="487.33333333333337" y="751.0" />
+      <point x="487.33333333333337" y="741.0" />
+      <point x="423.45833333333337" y="741.0" />
+      <point x="57.75" y="117.0" />
+    </edge>
+    <edge source="Scooter" target="Voertuig" relationship="GENERALIZATION">
+      <point x="0.0" y="-73.0" />
+      <point x="323.49114331723047" y="1021.0" />
+      <point x="411.4808776167475" y="1021.0" />
+      <point x="0.0" y="84.0" />
+    </edge>
+    <edge source="Dealership" target="Dealer" relationship="DEPENDENCY">
+      <point x="-57.75" y="-117.0" />
+      <point x="307.95833333333337" y="465.0" />
+      <point x="47.74114331723047" y="465.0" />
+      <point x="47.74114331723047" y="455.0" />
+      <point x="334.03280998389715" y="455.0" />
+      <point x="-80.33333333333331" y="150.5" />
+    </edge>
+    <edge source="IT" target="Dealer" relationship="GENERALIZATION">
+      <point x="-44.333333333333314" y="39.5" />
+      <point x="456.53280998389715" y="106.0" />
+      <point x="414.36614331723047" y="106.0" />
+      <point x="0.0" y="-150.5" />
+    </edge>
+    <edge source="Manager" target="Dealer" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="727.5494018863589" y="344.2857142857144" />
+      <point x="812.5833333333334" y="344.2857142857144" />
+      <point x="812.5833333333334" y="370.0000000000001" />
+      <point x="494.6994766505638" y="370.0000000000001" />
+      <point x="80.33333333333331" y="150.5" />
+    </edge>
+    <edge source="Voertuig" target="Dealership" relationship="DEPENDENCY">
+      <point x="39.75" y="-84.0" />
+      <point x="451.2308776167475" y="751.0" />
+      <point x="487.33333333333337" y="751.0" />
+      <point x="487.33333333333337" y="741.0" />
+      <point x="423.45833333333337" y="741.0" />
+      <point x="57.75" y="117.0" />
+    </edge>
+    <edge source="Main" target="Auto" relationship="CREATE">
+      <point x="0.0" y="-39.5" />
+      <point x="526.4808776167474" y="1214.0" />
+      <point x="553.4911433172305" y="1214.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="Dealership" target="Dealer" relationship="TO_MANY">
+      <point x="57.75" y="-117.0" />
+      <point x="423.45833333333337" y="465.0" />
+      <point x="414.36614331723047" y="465.0" />
+      <point x="0.0" y="150.5" />
+    </edge>
+    <edge source="Main" target="Manager" relationship="CREATE">
+      <point x="33.111111111111086" y="-39.5" />
+      <point x="559.5919887278585" y="1234.0" />
+      <point x="727.5494018863589" y="1234.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="Login" target="Dealership" relationship="CREATE">
+      <point x="69.33333333333337" y="-106.5" />
+      <point x="231.57447665056384" y="751.0" />
+      <point x="487.33333333333337" y="751.0" />
+      <point x="487.33333333333337" y="741.0" />
+      <point x="423.45833333333337" y="741.0" />
+      <point x="57.75" y="117.0" />
+    </edge>
+    <edge source="Main" target="Mechanic" relationship="CREATE">
+      <point x="49.66666666666663" y="-39.5" />
+      <point x="576.147544283414" y="1244.0" />
+      <point x="935.1922590292162" y="1244.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="Main" target="IT" relationship="CREATE">
+      <point x="66.22222222222229" y="-39.5" />
+      <point x="592.7030998389698" y="1254.0" />
+      <point x="985.7636876006447" y="1254.0" />
+      <point x="985.7636876006447" y="106.0" />
+      <point x="545.1994766505638" y="106.0" />
+      <point x="44.333333333333314" y="39.5" />
+    </edge>
+    <edge source="Main" target="Login" relationship="CREATE">
+      <point x="-33.111111111111086" y="-39.5" />
+      <point x="493.36976650563633" y="1234.0" />
+      <point x="162.24114331723047" y="1234.0" />
+      <point x="0.0" y="106.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.6999999999999998" showDependencies="true" x="246.85714285714312" y="715.857142857143" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
