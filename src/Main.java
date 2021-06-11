@@ -7,6 +7,16 @@ public class Main {
         Login login = new Login();
         login.isAuthenticated();
 
+        createDummyDataOne();
+
+        askAndTell();
+
+
+    }
+
+
+    public static void createDummyDataOne(){
+
         System.out.println("-------------------------------------------");
 
         // Auto voor test
@@ -23,6 +33,7 @@ public class Main {
         // Scooter voor test
         Scooter scooter1 = new Scooter("Vespa", 50, 200);
         scooter1.Opslag();
+
 
         System.out.println("-------------------------------------------");
 
@@ -61,7 +72,9 @@ public class Main {
         scooby.startEngine();
 
         System.out.println("-------------------------------------------");
+    }
 
+    public static void askAndTell(){
         System.out.println("Wat voor soort Dealer wil je?");
 
         System.out.println("1. IT");
@@ -95,6 +108,5 @@ public class Main {
         }
         assert dealer111 != null;
         System.out.println (dealer111.getOrder ());
-
     }
 }
