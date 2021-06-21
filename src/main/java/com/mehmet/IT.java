@@ -1,3 +1,5 @@
+package com.mehmet;
+
 import java.util.Scanner;
 
 class IT extends Dealer{

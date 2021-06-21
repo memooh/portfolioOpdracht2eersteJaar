@@ -1,5 +1,7 @@
-import org.junit.Assert;
-import org.junit.Test;
+package com.mehmet;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class mainTest {
 
@@ -16,7 +18,7 @@ public class mainTest {
         dealership_1.addDealer(dealer_1);
 
         // Dealer wordt toegevoegd, waardoor dealership 1 dealer heeft namelijk .get(0) en hierop wordt de test uitegevoerd.
-        Assert.assertEquals(dealer_1, dealership_1.getHasA().get(0));
+        assertEquals(dealer_1, dealership_1.getHasA().get(0));
     }
 
     // Test of je een dealer kan specificeren.
@@ -35,8 +37,8 @@ public class mainTest {
             }
         };
 
-        Assert.assertEquals("test", dealer_1.getVoornaam());
-        Assert.assertEquals("test2", dealer_2.getVoornaam());
+        assertEquals("test", dealer_1.getVoornaam());
+        assertEquals("test2", dealer_2.getVoornaam());
     }
 
     // Test of method overriding van extended abstract class werkt.
@@ -44,7 +46,7 @@ public class mainTest {
     public void Test3() {
         // scooter de voertuigNaam komt vanuit abstract class Voertuig en hierbij testen we of het werkt.
         Scooter scooter_1 = new Scooter("scooter_1",20,10);
-        Assert.assertEquals("scooter_1", scooter_1.getVoertuigName());
+        assertEquals("scooter_1", scooter_1.getVoertuigName());
 
     }
 

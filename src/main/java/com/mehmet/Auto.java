@@ -1,3 +1,5 @@
+package com.mehmet;
+
 class Auto extends Voertuig {
     private Integer kmStand;
     private Integer aantalDeuren;

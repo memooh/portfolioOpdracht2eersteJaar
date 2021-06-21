@@ -1,3 +1,5 @@
+package com.mehmet;
+
 abstract class Voertuig{
     private String name;
     private Dealership has;

@@ -1,3 +1,5 @@
+package com.mehmet;
+
 import java.util.ArrayList;
 
 class Dealership {

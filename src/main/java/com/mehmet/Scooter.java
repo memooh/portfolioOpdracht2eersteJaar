@@ -1,3 +1,5 @@
+package com.mehmet;
+
 class Scooter extends Voertuig {
     private Integer torquePower;
     private Integer cilinder;

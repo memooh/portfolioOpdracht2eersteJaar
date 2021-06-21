@@ -1,3 +1,5 @@
+package com.mehmet;
+
 abstract class Dealer {
     private String voornaam;
     private String achternaam;
